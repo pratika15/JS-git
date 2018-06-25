@@ -1,2 +1,2 @@
-var a= "pratika";
+var a= "javascript";
 alert (a);
