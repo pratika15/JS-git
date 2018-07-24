@@ -1,10 +1,2 @@
-var age = 15;
-
-if( age > 18 ){
-    document.write("<b>Qualifies for driving</b>");
-}
-
-else{
-    document.write("<b>Does not qualify for driving</b>");
-}
-var age=prompt=("enter your age");
+var myArray = [ 'hello', 'world' ];
+myArray.push('new');
