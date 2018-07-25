@@ -1,4 +1,4 @@
-function sayHello(name, age)
+ sayHello=(name, age)=>
 {
     document.write (name + " is " + age + " years old.");
 }
