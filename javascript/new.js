@@ -1,5 +1,5 @@
 var age =prompt("enter your age");
-var daysInAYear = 364.25;
+var daysInAYear = 365;
 
 let calculate=()=>{
 days = age * daysInAYear;
