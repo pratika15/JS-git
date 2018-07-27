@@ -1,18 +1,22 @@
-var age =prompt("enter your age");
-var daysInAYear = 365;
+let cal=()=>{
+ var age,daysInAYear,days;
 
-let calculate=()=>{
-days = age * daysInAYear;
- return calculate();
+ age=prompt("enter your age");
+ daysInAYear = 365;
+ days= age*daysInAYear;
+ return days;
 
-}
+ }
 
-let b=(days)=>{
-days = age * daysInAYear;
+ let b=(f)=>{
+
+//  console.log(34);
+
+  return f();
 
 
- return days();
+ }
+  console.log(b(cal));
 
 
-}
-console.log( b(calculate) );
+
